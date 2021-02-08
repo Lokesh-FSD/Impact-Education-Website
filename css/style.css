@@ -19,6 +19,8 @@ html{
     border-radius: 50px;
     margin: 5px;
 }
+/* Navbar */
+
 .navbar{
     display: flex;
     align-items: center;
@@ -61,15 +63,20 @@ html{
     padding: 5px;
     font-size: 17px;
     border: 2px solid grey;
-    border-radius: 9px;
-    margin: 4px ;
-}
+    border-radius: 9px;}
 
 .background{
     background: rgba(0, 0, 0, 0.7) url('../img/bg.jpg');
     background-size: cover;
     background-blend-mode: darken;
 }
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+/* Section */
 
 .firstSection{
     height: 100vh;
@@ -129,13 +136,7 @@ html{
     color: black;
 }
 
-.btn-sm{
-    padding: 6px 10px;
-    vertical-align: middle;
-    font-size: 16px;
-    margin: 6px 108px;
 
-}
 
 .btn-dark{
     color: black;
@@ -175,6 +176,7 @@ html{
     margin-top: 19px;
 }
 
+/* Contact Us  */
 .contact{
     background-color: #f6f5f4;
     height: 633px;
